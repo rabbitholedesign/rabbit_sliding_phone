@@ -115,32 +115,38 @@ box-shadow:0 1px 0 rgba(255,255,255,.15);
 color:white;
 font-size:12px;
 margin-top:16px;
+min-height:58px;
 }
 
 /* USER */
 #rabbit-phone .rabbit-user{
+position:absolute;
+left:50%;
+top:8px;
+transform:translateX(-50%);
 display:flex;
 flex-direction:column;
 align-items:center;
-width:fit-content;
-margin-left:auto;
-margin-right:50px;
+gap:4px;
+min-width:0;
 }
 
+/* AVATAR */
 #rabbit-phone .rabbit-avatar{
 width:30px;
 height:30px;
 border-radius:50%;
 background:var(--rabbit-avatar) center/cover;
+flex-shrink:0;
 }
 
+/* NAME */
 #rabbit-phone .rabbit-name{
 font-weight:500;
 white-space:nowrap;
 overflow:hidden;
 text-overflow:ellipsis;
-max-width:170px;
-margin-top:4px;
+max-width:160px;
 text-align:center;
 }
 
