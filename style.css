@@ -127,7 +127,7 @@ display:contents;
 #rabbit-phone .rabbit-avatar{
 position:absolute;
 left:30%;
-top:0px;
+top:-8px;
 transform:translateX(-50%);
 width:45px;
 height:45px;
