@@ -127,10 +127,10 @@ display:contents;
 #rabbit-phone .rabbit-avatar{
 position:absolute;
 left:30%;
-top:5px;
+top:0px;
 transform:translateX(-50%);
-width:40px;
-height:40px;
+width:45px;
+height:45px;
 border-radius:50%;
 background:var(--rabbit-avatar) center/cover;
 }
