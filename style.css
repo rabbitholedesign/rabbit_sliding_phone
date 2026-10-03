@@ -59,6 +59,9 @@ letter-spacing:1px;
 animation:rabbit-pulse 1.5s infinite;
 text-align:center;
 }
+#rabbit-phone .rabbit-unlock::before{
+content:"🔒 swipe to unlock";
+}
 
 @keyframes rabbit-pulse{
 0%{opacity:.3}
