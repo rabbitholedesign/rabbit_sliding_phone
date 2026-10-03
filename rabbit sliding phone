@@ -1,0 +1,70 @@
+<center>
+<link rel="stylesheet" href="https://rabbitholedesign.github.io/sliding_phone/style.css">
+
+<div id="rabbit-phone">
+  <div class="rabbit-screen">
+
+    <div class="rabbit-lockscreen">
+      <div class="rabbit-lock-time">12:45</div>
+      <div class="rabbit-lock-date">New Orleans</div>
+
+      <div class="rabbit-weather">
+        <span>🌤 18°C</span>
+      </div>
+
+      <div class="rabbit-unlock"></div>
+    </div>
+
+    <div class="rabbit-chatui">
+
+      <div class="rabbit-statusbar">
+        <span class="rabbit-time">12:45</span>
+
+        <div class="rabbit-status-icons">
+          <span class="rabbit-signal">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+
+          <span class="rabbit-wifi"></span>
+
+          <span class="rabbit-battery">
+            <span class="rabbit-battery-fill"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="rabbit-topbar">
+        <div class="rabbit-user">
+          <div class="rabbit-avatar"></div>
+          <div class="rabbit-name">Caroline 💖</div>
+        </div>
+
+        <div class="rabbit-actions">
+          <span class="rabbit-icon-phone"></span>
+          <span class="rabbit-icon-video"></span>
+          <span class="rabbit-icon-more"></span>
+        </div>
+      </div>
+
+      <div class="rabbit-chat">
+        <div class="rabbit-message">szia</div>
+        <div class="rabbit-message">mi a helyzet?</div>
+        <div class="rabbit-message">megetetted a macskát?</div>
+
+        <div class="rabbit-typing">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="rabbit-input">Message...</div>
+
+    </div>
+
+  </div>
+</div>
+</center>
