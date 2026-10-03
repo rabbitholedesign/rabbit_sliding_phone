@@ -121,7 +121,7 @@ min-height:58px;
 /* USER */
 #rabbit-phone .rabbit-user{
 position:absolute;
-left:50%;
+left:40%;
 top:16px;
 transform:translateX(-50%);
 display:flex;
