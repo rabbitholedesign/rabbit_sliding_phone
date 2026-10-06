@@ -221,6 +221,7 @@ max-width:70%;
 margin-left:auto;
 font-size:11px;
 overflow-wrap:anywhere;
+text-align:left;
 }
 
 /* INPUT */
