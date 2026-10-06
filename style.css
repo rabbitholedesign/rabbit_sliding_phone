@@ -220,6 +220,8 @@ border-radius:14px;
 max-width:70%;
 margin-left:auto;
 font-size:11px;
+width:fit-content;
+box-sizing:border-box;
 }
 
 /* INPUT */
