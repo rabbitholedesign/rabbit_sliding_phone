@@ -224,7 +224,7 @@ font-size:11px;
 
 /* INPUT */
 #rabbit-phone .rabbit-input{
-background:#e2e4e8;
+background:rgba(255,255,255,.45);
 padding:6px 10px;
 border-radius:16px;
 color:#000;
