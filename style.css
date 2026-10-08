@@ -207,7 +207,11 @@ flex-direction:column;
 justify-content:flex-end;
 padding:8px;
 height:340px;
+min-height:0;
+max-height:340px;
 overflow-y:auto;
+overflow-x:hidden;
+flex-shrink:0;
 gap:6px;
 scrollbar-width:none;
 }
