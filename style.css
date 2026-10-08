@@ -207,7 +207,7 @@ flex-direction:column;
 justify-content:flex-end;
 padding:8px;
 height:340px;
-overflow:auto;
+overflow-y:auto;
 gap:6px;
 scrollbar-width:none;
 }
