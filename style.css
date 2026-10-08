@@ -221,7 +221,8 @@ max-width:70%;
 margin-left:auto;
 font-size:11px;
 overflow-wrap:anywhere;
-text-align:left;
+text-align:justify;
+word-spacing:-1px;  
 }
 
 /* INPUT */
