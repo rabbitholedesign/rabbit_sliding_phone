@@ -209,6 +209,11 @@ padding:8px;
 height:340px;
 overflow:auto;
 gap:6px;
+scrollbar-width:none;
+}
+
+#rabbit-phone .rabbit-chat::-webkit-scrollbar{
+display:none;
 }
 
 /* MESSAGE */
