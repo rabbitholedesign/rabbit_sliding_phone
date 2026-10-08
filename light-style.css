@@ -219,7 +219,9 @@ padding:8px 10px;
 border-radius:14px;
 max-width:70%;
 margin-left:auto;
-font-size:11px;
+font-size:10px;
+text-align:justify;
+overflow-wrap:anywhere;
 }
 
 /* INPUT */
