@@ -204,20 +204,30 @@ background-image:url("data:image/svg+xml,%3Csvg fill='white' xmlns='http://www.w
 #rabbit-phone .rabbit-chat{
 display:flex;
 flex-direction:column;
-justify-content:flex-end;
-padding:8px;
-height:340px;
+flex:1 1 auto;
 min-height:0;
-max-height:340px;
+padding:8px;
+gap:6px;
+overflow:hidden;
+}
+
+/* SCROLLABLE MESSAGES */
+#rabbit-phone .rabbit-messages{
+display:flex;
+flex-direction:column;
+flex:1 1 auto;
+min-height:0;
 overflow-y:auto;
 overflow-x:hidden;
-flex-shrink:0;
-gap:6px;
 scrollbar-width:none;
 }
 
-#rabbit-phone .rabbit-chat::-webkit-scrollbar{
+#rabbit-phone .rabbit-messages::-webkit-scrollbar{
 display:none;
+}
+
+#rabbit-phone .rabbit-messages > :first-child{
+margin-top:auto;
 }
 
 /* MESSAGE */
