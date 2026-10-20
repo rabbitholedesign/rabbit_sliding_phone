@@ -215,7 +215,7 @@ overflow:hidden;
 #rabbit-phone .rabbit-messages{
 display:flex;
 flex-direction:column;
-flex:1 1 auto;
+flex:1 1 0;
 min-height:0;
 overflow-y:auto;
 overflow-x:hidden;
