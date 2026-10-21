@@ -225,6 +225,7 @@ min-height:0;
 overflow-y:auto;
 overflow-x:hidden;
 scrollbar-width:none;
+justify-content:flex-end;
 }
 
 #rabbit-phone .rabbit-messages::-webkit-scrollbar{
@@ -374,12 +375,4 @@ border-radius:1px;
 
 #rabbit-phone .rabbit-chat > br {
   display: none;
-}
-
-#rabbit-phone .rabbit-messages {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow-y: auto;
-  min-height: 0;
 }
