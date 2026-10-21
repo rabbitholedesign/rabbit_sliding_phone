@@ -209,8 +209,7 @@ background-image:url("data:image/svg+xml,%3Csvg fill='white' xmlns='http://www.w
 #rabbit-phone .rabbit-chat{
 display:flex;
 flex-direction:column;
-flex: 1 1 0;
-height: 0;
+flex:1 1 0;
 min-height:0;
 padding:8px;
 gap:6px;
@@ -221,7 +220,7 @@ overflow:hidden;
 #rabbit-phone .rabbit-messages{
 display:flex;
 flex-direction:column;
-flex: 1 1 0;
+flex:1 1 0;
 min-height:0;
 overflow-y:auto;
 overflow-x:hidden;
@@ -235,7 +234,6 @@ display:none;
 #rabbit-phone .rabbit-messages > :first-child{
 margin-top:auto;
 }
-
 
 /* MESSAGE */
 #rabbit-phone .rabbit-message{
