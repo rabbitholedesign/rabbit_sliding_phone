@@ -217,23 +217,23 @@ overflow:hidden;
 }
 
 /* SCROLLABLE MESSAGES */
-#rabbit-phone .rabbit-messages{
-display:flex;
-flex-direction:column;
-flex:1 1 0;
-height:0;
-min-height:0;
-overflow-y:scroll;
-overflow-x:hidden;
-scrollbar-width:none;
+#rabbit-phone .rabbit-messages {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
 }
 
-#rabbit-phone .rabbit-messages::-webkit-scrollbar{
-display:none;
+#rabbit-phone .rabbit-messages::-webkit-scrollbar {
+  display: none;
 }
 
-#rabbit-phone .rabbit-messages > :first-child{
-margin-top:auto;
+#rabbit-phone .rabbit-messages::before {
+  content: "";
+  flex: 1 0 0;
 }
 
 /* MESSAGE */
