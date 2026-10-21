@@ -201,11 +201,13 @@ background-image:url("data:image/svg+xml,%3Csvg fill='white' xmlns='http://www.w
 }
 
 
+
 /* CHAT */
 #rabbit-phone .rabbit-chat{
 display:flex;
 flex-direction:column;
-flex:1 1 0;
+flex:1 1 auto;
+height:auto;
 min-height:0;
 padding:8px;
 gap:6px;
@@ -216,9 +218,9 @@ overflow:hidden;
 #rabbit-phone .rabbit-messages{
 display:flex;
 flex-direction:column;
-flex:1 1 0;
-min-height:0;
+flex:1 1 auto;
 height:auto;
+min-height:0;
 overflow-y:auto;
 overflow-x:hidden;
 scrollbar-width:none;
