@@ -371,3 +371,7 @@ width:70%;
 background:#fff;
 border-radius:1px;
 }
+
+#rabbit-phone .rabbit-chat > br {
+  display: none;
+}
